@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Sidebar from "../components/Sidebar"
+import Center from "../components/Center"
 
 const Home: NextPage = () => {
   return (
@@ -9,9 +10,9 @@ const Home: NextPage = () => {
         <title>Spotify</title>
       </Head>
 
-      <main>
+      <main className='flex'>
         <Sidebar />
-        {/* Center */}
+        <Center />
       </main>
 
       <div>
