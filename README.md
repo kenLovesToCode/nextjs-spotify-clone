@@ -14,5 +14,7 @@ Spotify clone built using:
 - yarn add next-auth@beta
 - yarn add spotify-web-api-node
 - yarn add tailwind-scrollbar-hide
+- yarn add lodash
+- yarn add recoil
 
 #### How to run
